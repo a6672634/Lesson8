@@ -10,7 +10,7 @@ public class ZeroElementsCounter {
         Scanner scanner = new Scanner(System.in);
         int counter = 0;
         int zeros = 0;
-        System.out.println("Введите значение");
+        System.out.println("Enter number");
         do{
             if(scanner.hasNextInt()){
                 array[counter++] = scanner.nextInt();

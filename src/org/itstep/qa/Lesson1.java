@@ -3,7 +3,7 @@ package org.itstep.qa;
 import java.util.Arrays;
 import java.util.Random;
 
-public class Massif {
+public class Lesson1 {
     public static void main(String[] args) {
         int array[]; // [] могут стоять и там и там int [] arrey ; int arrey [];
         array = new int[10];

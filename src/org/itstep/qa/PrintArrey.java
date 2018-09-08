@@ -8,12 +8,12 @@ import java.util.Scanner;
 // Ввести значения для элементов массива с клавиатуры, сделать проверку правильности ввода элемента типа Integer,
 // если элемент введен неправильно – дать возможность повторить его ввод.
 // Вывести массив на экран.
-public class Zadanie {
+public class PrintArrey {
     public static void main(String[] args) {
         int array[] = new int[10];
         Scanner scanner = new Scanner(System.in);
         int counter = 0;
-        System.out.println("Введите значение");
+        System.out.println("Enter number");
         do{
             if(scanner.hasNextInt()){
                 array[counter++] = scanner.nextInt();
